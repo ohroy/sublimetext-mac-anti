@@ -16,6 +16,8 @@
 		D447E8441F74B05400DD19AE /* put mac app here */ = {isa = PBXFileReference; lastKnownFileType = text; name = "put mac app here"; path = "TargetApp/put mac app here"; sourceTree = "<group>"; };
 		D447E8451F74B05400DD19AE /* sublime.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sublime.h; sourceTree = "<group>"; };
 		D447E8471F74B05400DD19AE /* sublime.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sublime.m; sourceTree = "<group>"; };
+		D447E84E1F750BD100DD19AE /* ReadMe.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = ReadMe.md; sourceTree = "<group>"; };
+		D447E84F1F750D0B00DD19AE /* License */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = License; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +34,8 @@
 		D447E8361F74B05300DD19AE = {
 			isa = PBXGroup;
 			children = (
+				D447E84F1F750D0B00DD19AE /* License */,
+				D447E84E1F750BD100DD19AE /* ReadMe.md */,
 				D447E8421F74B05300DD19AE /* sublime */,
 				D447E8411F74B05300DD19AE /* Products */,
 			);
