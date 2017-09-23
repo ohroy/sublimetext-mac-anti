@@ -8,14 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		D447E8461F74B05400DD19AE /* sublime.h in Headers */ = {isa = PBXBuildFile; fileRef = D447E8451F74B05400DD19AE /* sublime.h */; };
-		D447E8481F74B05400DD19AE /* sublime.m in Sources */ = {isa = PBXBuildFile; fileRef = D447E8471F74B05400DD19AE /* sublime.m */; };
+		D447E8481F74B05400DD19AE /* sublime.mm in Sources */ = {isa = PBXBuildFile; fileRef = D447E8471F74B05400DD19AE /* sublime.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D447E8401F74B05300DD19AE /* libsublime.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libsublime.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
 		D447E8441F74B05400DD19AE /* put mac app here */ = {isa = PBXFileReference; lastKnownFileType = text; name = "put mac app here"; path = "TargetApp/put mac app here"; sourceTree = "<group>"; };
 		D447E8451F74B05400DD19AE /* sublime.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sublime.h; sourceTree = "<group>"; };
-		D447E8471F74B05400DD19AE /* sublime.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sublime.m; sourceTree = "<group>"; };
+		D447E8471F74B05400DD19AE /* sublime.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = sublime.mm; sourceTree = "<group>"; };
 		D447E84E1F750BD100DD19AE /* ReadMe.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = ReadMe.md; sourceTree = "<group>"; };
 		D447E84F1F750D0B00DD19AE /* License */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = License; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -53,7 +53,7 @@
 			isa = PBXGroup;
 			children = (
 				D447E8451F74B05400DD19AE /* sublime.h */,
-				D447E8471F74B05400DD19AE /* sublime.m */,
+				D447E8471F74B05400DD19AE /* sublime.mm */,
 				D447E8431F74B05300DD19AE /* TargetApp */,
 			);
 			path = sublime;
@@ -153,7 +153,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D447E8481F74B05400DD19AE /* sublime.m in Sources */,
+				D447E8481F74B05400DD19AE /* sublime.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
